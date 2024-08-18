@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1420px;
+    margin: auto;
+ 
+}
+.footer-container{
+    max-width: 1280px;
+    margin: auto;
+ 
+}
+
+/* top-bar start */
+
+#top-bar{ 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(23, 23, 23);
+    height: 75px;
+}
+.top-menu{
+    display: flex;
+
+}
+
+.top-item{
+    width: 33.33%;
+    display: flex;
+}
+.top-item h1{
+    font-family: julee,cursive;
+    margin-top: 9px; 
+    color: white;  
+}
+.top-item p{
+    color: rgb(156, 156, 156);   
+}
+.top-item i{
+    margin-right: 20px;
+}
+.top-icon{
+    width: 33.33%;
+    
+}
+.top-icon i{
+    float: right;
+    padding: 20px 0px 20px 20px;
+    font-size: 30px;
+    color: white;
+}
+.top-icon i:hover{
+    color: #00aeff!important;  
+}
+.top-item i{
+    font-size: 30px;
+    margin-top: 20px;  
+}
+
+/* top bar end............ */
+/* navbar start ............. */
+
+#main_nav_section {
+    position: fixed; 
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+.main_nav_items {
+    display: flex;
+}
+.nav_logo {
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav_logo i{
+    width: 20%;
+}
+.nav_item {
+    width: 60%; 
+}
+.nav_item ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 60px;
+}
+.nav_item ul li{
+    padding: 10px 10px 10px 30px;
+    margin-top: 20px; 
+}
+.nav_item ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.nav_item ul li a:hover{
+    color: #00aeff;
+}
+.nav_icon {
+    width: 20%;
+}
+.nav_icon form {
+    outline: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25px;  
+}
+.nav_icon form i{
+    font-size: 20px;
+    padding: 6px;
+    border-right:1px solid rgba(119, 114, 114, 0.634);
+}
+.nav_icon form input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+/* navbar end .......................*/
+/* side navbar start..................... */
+
+.hero-col{
+    display: flex;
+}
+.side-nav{
+    width: 258px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 157px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    height: 100vh;
+    overflow-y: auto; 
+}
+.side-nav::-webkit-scrollbar{
+    width: 8px;
+    
+}
+.side-nav::-webkit-scrollbar-thumb{
+    background-color: #5e5f5f;
+    border-radius: 30px;
+}
+
+.side-nav-item li {
+    cursor: pointer;
+}
+
+.side-nav-item a{
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    color: #000000;
+}
+.side-nav-item i{
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+}
+.side-nav-item ul{
+    margin-top: 10px;
+}
+.side-nav-item li:hover{
+    background-color: #929292;
+}
+
+.side-nav-item li:hover i,
+.side-nav-item li:hover a{
+    color: #ffffff;
+}
+
+.log-out{
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(48, 48, 48);
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    border-radius: 2px; 
+}
+.log-out a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 22px;
+    color: white;  
+}
+.log-out i{
+    font-size: 20px;  
+    margin-right: 10px;
+    margin-left: 30px; 
+}
+.log-out:hover{
+    background-color: #000000;
+     
+}
+
+/* side navbar end.............................. */
+/* hero start............................... */
+
+.heroSection{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 257px;
+    width: 100%;
+    height: 100vh;
+    background: url('https://www.mediafire.com/convkey/5ca5/92xvlb22qvvpoub6g.jpg') center;
+    background-size: cover;
+}
+.heroText{
+    text-align: center;
+    color: #fff;
+    margin-top: 330px;
+}
+.heroText h1{
+    font-size: 120px;
+}
+.heroText p{
+    font-size: 20px;
+}
+.hero-btn{
+    margin-left: 530px;
+    display: flex;
+}
+.heroText button{
+    color: #fff;
+    background: transparent;
+    border: solid 2px #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.heroText button:hover{
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #fff;
+    color: #000000;
+}
+
+button.joinNow{
+    background: rgb(0, 206, 93);
+    border: solid 2px rgb(0, 206, 93);
+}
+
+button.joinNow:hover{
+    color: #fff;
+    background: rgb(1, 168, 76);
+    border: solid 2px rgb(1, 168, 76);
+}
+
+/* hero end.......................... */
+/* footer start............................... */
+
+footer{ 
+    margin-left: 257px;
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-sec{
+    height: 300px;
+    display: flex;
+}
+footer .app-info{
+    padding-top: 35px;
+}
+footer .app-info p{
+    margin-top: 10px;
+}
+.footer-sec{
+    justify-content: space-between;
+}
+.footer-icon{
+    padding-top: 20px;   
+}
+.footer-icon i{
+    padding: 10px 10px 10px 0px;
+    float: left;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+.footer-icon i:hover{
+    color: #00aeff!important;  
+}
+.app-info p{
+    color: white;
+}
+.footer-title{ 
+    font-size: 25px;
+    line-height: 30px;
+    color: white; 
+    padding-top: 40px;  
+}
+footer ul{ 
+    margin-top: 10px;
+    color: white;
+    font-size:18px;
+    line-height: 25px;
+    list-style: none;
+}
+footer ul li:hover{
+    color: #00aeff;
+}
+footer form{
+    padding-top: 20px;
+}
+footer form input{
+    padding: 5px 40px 5px 5px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+footer form textarea{
+    padding: 5px 31px 5px 5px;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+footer form button{
+    margin-top: 5px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    background-color: #0d31ff;
+}
+footer form button a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;   
+}
+.copyright{
+    background-color: #111012;
+    color: rgb(255, 255, 255);
+    padding: 13px ;
+    text-align: center;
+}
+
+
+
+
+
+
+
